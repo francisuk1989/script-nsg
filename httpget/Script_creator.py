@@ -14,7 +14,7 @@ def speed_unit():
 
 #Return the localisation
 def info():
-    op=input("Please input the operateur name")
+    op=input("Please input the operateur name\n")
     pays=input("Please input the country and the City (if you have the city)\n")
     code_pays=input("Please input the country code (ex: FR for France)\n")
     speed=input("Please input the Server speed (without the speedunit)\n")
