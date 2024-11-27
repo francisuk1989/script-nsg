@@ -3,9 +3,9 @@
     <cases>
       <case>
         <type>get-http</type>
-        <name>None</name>
+        <name>Tele2 LV (10Gbps, Latvia, Riga)</name>
         <enabled>true</enabled>
-        <url>test</url>
+        <url>http://bks4-speedtest-1.tele2.net/100GB.zip</url>
         <repeat>2</repeat>
         <duration>60</duration>
         <pause>10</pause>

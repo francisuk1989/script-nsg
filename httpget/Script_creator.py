@@ -18,9 +18,8 @@ def info():
     pays=input("Please input the country and the City (if you have the city)\n")
     code_pays=input("Please input the country code (ex: FR for France)\n")
     speed=input("Please input the Server speed (without the speedunit)\n")
-    type_server=input("Please input the Server type (type the enter key to skip it)\n")
     url=input("Enter the URL\n")
-    return pays, code_pays, speed,type_server,url, op
+    return pays, code_pays, speed,url, op
 
 # Return all info related to the time
 def timing():
@@ -30,10 +29,10 @@ def timing():
     concurrence=input("enter the number of concurrent test (default 1)\n") or "1"
     return repetition,duree,pause,concurrence
 
-def create_filename(speed,speedunit,code_pays,operateur,type_server):
-    return f"{operateur}_{type_server}_{speed}{speedunit}_{code_pays}.xml"
-def create_name(operateur,type_server,speed,speed_unit,pays):
-    return f"{operateur} {type_server} ({speed}{speed_unit}, {pays})"
+def create_filename(speed,speedunit,code_pays,operateur):
+    return f"{operateur}_{speed}{speedunit}_{code_pays}.xml"
+def create_name(operateur,speed,speed_unit,pays):
+    return f"{operateur} ({speed}{speed_unit}, {pays})"
 
 def create_file(filename,name,repetition,url,duration,pause,concurrence):
     with open(filename,"w") as file:
@@ -44,10 +43,10 @@ def main():
     while choix != "no" and choix != "No":
         print(f"Creation of the XML File for GetHTTP")
         unit=speed_unit()
-        pays,code_pays,speed,type_server,url,op=info()
+        pays,code_pays,speed,url,op=info()
         repetition,duree,pause,concurrence=timing()
-        filename=create_filename(speed,unit,code_pays,op,type_server)
-        name=create_name(op,type_server,speed,unit,pays)
+        filename=create_filename(speed,unit,code_pays,op)
+        name=create_name(op,speed,unit,pays)
         create_file(filename,name,repetition,url,duree,pause,concurrence)
         choix=input("Create a new file ? Yes/No\n")
     print("Bye")
