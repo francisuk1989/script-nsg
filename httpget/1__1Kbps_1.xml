@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>1  (1<function speed_unit at 0x0000016C2E10B640>, 1)</name>
+        <enabled>true</enabled>
+        <url>tet</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

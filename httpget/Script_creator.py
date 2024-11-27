@@ -31,16 +31,9 @@ def timing():
     return repetition,duree,pause,concurrence
 
 def create_filename(speed,speedunit,code_pays,operateur,type_server):
-    if type_server:
-        filename=f"{operateur}_{type_server}_{speed}{speedunit}_{code_pays}.xml"
-    else:
-        filename=f"{operateur}_{speed}{speedunit}_{code_pays}.xml"
-    return filename
+    return f"{operateur}_{type_server}_{speed}{speedunit}_{code_pays}.xml"
 def create_name(operateur,type_server,speed,speed_unit,pays):
-    if type_server:
-        f"{operateur} {type_server} ({speed}{speed_unit}, {pays})"
-    else:
-        f"{operateur}({speed}{speed_unit}, {pays})"
+    return f"{operateur} {type_server} ({speed}{speed_unit}, {pays})"
 
 def create_file(filename,name,repetition,url,duration,pause,concurrence):
     with open(filename,"w") as file:
@@ -54,7 +47,7 @@ def main():
         pays,code_pays,speed,type_server,url,op=info()
         repetition,duree,pause,concurrence=timing()
         filename=create_filename(speed,unit,code_pays,op,type_server)
-        name=create_name(op,type_server,speed,speed_unit,pays)
+        name=create_name(op,type_server,speed,unit,pays)
         create_file(filename,name,repetition,url,duree,pause,concurrence)
         choix=input("Create a new file ? Yes/No\n")
     print("Bye")
