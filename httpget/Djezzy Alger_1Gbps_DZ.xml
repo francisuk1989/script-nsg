@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Djezzy Alger (1Gbps, Algeria, Alger)</name>
+        <enabled>true</enabled>
+        <url>http://dz-djezzy-alger-01-1g.nperf.net:8081/1GiB.dat</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
