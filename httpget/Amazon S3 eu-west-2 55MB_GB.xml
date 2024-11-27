@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>[GB] Amazon S3 EU-West-2 55MB MP4</name>
+        <enabled>true</enabled>
+        <url>https://s3-eu-west-2.amazonaws.com/nova-2018/uploads/2021/07/lydia_VIDEO1.mp4</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
