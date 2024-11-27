@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Scaleway Cubic IPv4 (100Gbps, France, Vitry-Sur-Seine)</name>
+        <enabled>true</enabled>
+        <url>http://ping.online.net/10000Mo.dat</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

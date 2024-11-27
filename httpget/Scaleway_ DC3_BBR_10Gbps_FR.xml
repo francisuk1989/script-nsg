@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Scaleway DC3 BBR (10Gbps, France, Vitry-Sur-Seine)</name>
+        <enabled>true</enabled>
+        <url>https://scaleway.testdebit.info/10G/10G.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
