@@ -1,5 +1,7 @@
 # script-nsg
- Speedtest Script For NSG, You can PR your script Too !!
+ Speedtest Script For [NSG]([https://www.qtrun.com/eng/nsg), You can PR your script Too !!
+
+[NSG]([https://www.qtrun.com/eng/nsg)
 
 ## To do
 - [ ] Add new test file for httpget
