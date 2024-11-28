@@ -3,7 +3,7 @@
     <cases>
       <case>
         <type>get-http</type>
-        <name>[GB] Amazon S3 EU-West-2 55MB MP4</name>
+        <name>Amazon S3 (United Kingdom, London)</name>
         <enabled>true</enabled>
         <url>https://s3-eu-west-2.amazonaws.com/nova-2018/uploads/2021/07/lydia_VIDEO1.mp4</url>
         <repeat>2</repeat>
