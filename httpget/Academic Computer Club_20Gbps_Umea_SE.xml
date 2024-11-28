@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Academic Computer Club (20Gbps, Umea, Sweden)</name>
+        <enabled>true</enabled>
+        <url>https://ftp.acc.umu.se/mirror/almalinux.org/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
