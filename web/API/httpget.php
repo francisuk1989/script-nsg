@@ -5,12 +5,12 @@ try {
 
     // Get the country and operator from the query parameters
     $country = isset($_GET['country']) ? $_GET['country'] : '';
-    $operator = isset($_GET['operator']) ? $_GET['operator'] : '';
+    $operator = isset($_GET['operator']) ? $_GET['isp'] : '';
 
     // Prepare and execute a query with the country and operator parameters
-    $stmt = $db->prepare('SELECT * FROM your_table WHERE country = :country AND operator = :operator');
+    $stmt = $db->prepare('SELECT * FROM your_table WHERE country_code = :country AND isp = :isp');
     $stmt->bindParam(':country', $country);
-    $stmt->bindParam(':operator', $operator);
+    $stmt->bindParam(':isp', $isp);
     $stmt->execute();
 
     // Fetch all results as an associative array
