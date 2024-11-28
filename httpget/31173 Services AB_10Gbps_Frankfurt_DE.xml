@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>31173 Services AB (10Gbps, Frankfurt, Germany)</name>
+        <enabled>true</enabled>
+        <url>https://fra-eq5-tptest1.31173.se/lg/100MB.test</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
