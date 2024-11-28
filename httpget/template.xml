@@ -3,13 +3,13 @@
     <cases>
       <case>
         <type>get-http</type>
-        <name>Name</name>
+        <name></name>
         <enabled>true</enabled>
-        <url>targeturl</url>
-        <repeat>Nb of repetition (ex: 2)</repeat>
-        <duration>time in second (ex: 2)</duration>
-        <pause>Pause time between action in second (ex : 6)</pause>
-        <concurrence>Nb of session</concurrence>
+        <url></url>
+        <repeat></repeat>
+        <duration></duration>
+        <pause></pause>
+        <concurrence></concurrence>
       </case>
     </cases>
   </test>
