@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>ASNET-AM (10Gbps, Yerevan, Armenia)</name>
+        <enabled>true</enabled>
+        <url>http://mirrors.asnet.am/rockylinux/9.5/isos/x86_64/Rocky-9-latest-x86_64-dvd.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>AARNet (50Gbps, Adelaide, Australia)</name>
+        <enabled>true</enabled>
+        <url>https://mirror.aarnet.edu.au/pub/knoppix-dvd/KNOPPIX_V9.1DVD-2021-01-25-EN.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Zero.com.ar (1Gbps, Buenos Aires, Argentina)</name>
+        <enabled>true</enabled>
+        <url>https://slackware.zero.com.ar/slackware/slackware-iso/slackware64-15.0-iso/slackware64-15.0-install-dvd.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
