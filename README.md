@@ -6,4 +6,4 @@
 - [ ] Made an API for creating at demande the test file ++> Low Priority
 - [ ] Update python script for CDN Support
 - [ ] Support more type of test
-- [ ] Website (for downloading without going to the repo)
+- [x] Website (for downloading without going to the repo)
