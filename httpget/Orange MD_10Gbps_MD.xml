@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Orange MD (10Gbps, Moldova, Chisinau)</name>
+        <enabled>true</enabled>
+        <url>https://md-orange-chisinau-01-1g-1.nperf.net/1GiB.dat</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
